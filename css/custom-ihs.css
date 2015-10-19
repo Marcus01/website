@@ -140,6 +140,36 @@
       color: #00a9cb; }
 
 /*-----------------------------------------------------------------------------
+-------------------------------------------------------------------------------*/
+#aktualnosci {
+  padding: 100px 0 30px;
+  overflow: hidden;
+  position: relative; }
+  #aktualnosci .customNavigation .btn {
+    position: absolute;
+    top: 50%;
+    background-color: #00a9cb;
+    color: #fff;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: -35px;
+    height: 70px;
+    width: 70px;
+    line-height: 57px;
+    text-align: center;
+    border-radius: 100px;
+    z-index: 5;
+    overflow: hidden; }
+  #aktualnosci .customNavigation .prev {
+    left: -35px;
+    text-indent: 14px; }
+  #aktualnosci .customNavigation .next {
+    right: -30px;
+    text-indent: -14px; }
+  #aktualnosci .carousel-indicators {
+    bottom: -50px; }
+
+/*-----------------------------------------------------------------------------
 ----------------------------- CIEKAWOSTKI ------------------------------------*/
 #ciekawostki {
   background: #20222e;
