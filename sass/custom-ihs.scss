@@ -26,7 +26,7 @@ $dark_color: #20222e;
 	}
 }
 
-#news, #ihs, #narzedzia, #kontakt, #produkty {
+#aktualnosci, #ihs, #narzedzia, #kontakt, #produkty {
   padding: 100px 0 75px;
 }
 
@@ -291,7 +291,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 @media (max-width: 770px) {
 
-	#news, #ihs, #narzedzia, #kontakt, #produkty {
+	#aktualnosci, #ihs, #narzedzia, #kontakt, #produkty {
 	  padding: 40px 0 30px;
 	}
     .gift-wrapper {
@@ -354,6 +354,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*-----------------------------------------------------------------------------
 ----------------------------- KARUZELA ---------------------------------------*/
+#owl-aktualnosci .item{
+  padding: 30px 0px;
+  margin: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: left;
+}
 
 
 #owl-ciekawostki .item{
@@ -363,7 +371,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  text-align: center;
+  text-align: left;
 }
 .customNavigation{
   text-align: center;

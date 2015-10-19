@@ -173,9 +173,9 @@ jQuery(function($) {'use strict';
 	});
 
 
-	var owl = $("#owl-ciekawostki");
+	var owlCiekawostki = $("#owl-ciekawostki");
 
-    owl.owlCarousel({
+    owlCiekawostki.owlCarousel({
         items : 4, //10 items above 1000px browser width
   	  itemsDesktop : [1400,3], //5 items between 1000px and 901px
         itemsDesktopMedium : [1000,2], //5 items between 1000px and 901px
@@ -185,19 +185,44 @@ jQuery(function($) {'use strict';
     });
 
     // Custom Navigation Events
-    $(".next").click(function(){
-      owl.trigger('owl.next');
+    $("#owl-ciekawostki .next").click(function(){
+      owlCiekawostki.trigger('owl.next');
     })
-    $(".prev").click(function(){
-      owl.trigger('owl.prev');
+    $("#owl-ciekawostki.prev").click(function(){
+      owlCiekawostki.trigger('owl.prev');
     })
-    $(".play").click(function(){
-      owl.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+    $("#owl-ciekawostki.play").click(function(){
+      owlCiekawostki.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
     })
-    $(".stop").click(function(){
-      owl.trigger('owl.stop');
+    $("#owl-ciekawostki.stop").click(function(){
+      owlCiekawostki.trigger('owl.stop');
     })
 
+
+	var owlAktualnosci = $("#owl-aktualnosci");
+
+    owlAktualnosci.owlCarousel({
+        items : 3, //10 items above 1000px browser width
+  	  itemsDesktop : [1400,2], //5 items between 1000px and 901px
+        itemsDesktopMedium : [1000,1], //5 items between 1000px and 901px
+        itemsDesktopSmall : [900,1], // betweem 900px and 601px
+        itemsTablet: [600,1], //2 items between 600 and 0
+        itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+    });
+
+    // Custom Navigation Events
+    $("#owl-aktualnosci .next").click(function(){
+      owlAktualnosci.trigger('owl.next');
+    })
+    $("#owl-aktualnosci.prev").click(function(){
+      owlAktualnosci.trigger('owl.prev');
+    })
+    $("#owl-aktualnosci.play").click(function(){
+      owlAktualnosci.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
+    })
+    $("#owl-aktualnosci.stop").click(function(){
+      owlAktualnosci.trigger('owl.stop');
+    })
 
 
 	$('.jumbotron h1')
