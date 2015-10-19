@@ -185,16 +185,16 @@ jQuery(function($) {'use strict';
     });
 
     // Custom Navigation Events
-    $("#owl-ciekawostki .next").click(function(){
+    $("#ciekawostki .next").click(function(){
       owlCiekawostki.trigger('owl.next');
     })
-    $("#owl-ciekawostki.prev").click(function(){
+    $("#ciekawostki .prev").click(function(){
       owlCiekawostki.trigger('owl.prev');
     })
-    $("#owl-ciekawostki.play").click(function(){
+    $("#ciekawostki .play").click(function(){
       owlCiekawostki.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
     })
-    $("#owl-ciekawostki.stop").click(function(){
+    $("#ciekawostki .stop").click(function(){
       owlCiekawostki.trigger('owl.stop');
     })
 
@@ -211,16 +211,16 @@ jQuery(function($) {'use strict';
     });
 
     // Custom Navigation Events
-    $("#owl-aktualnosci .next").click(function(){
+    $("#aktualnosci .next").click(function(){
       owlAktualnosci.trigger('owl.next');
     })
-    $("#owl-aktualnosci.prev").click(function(){
+    $("#aktualnosci .prev").click(function(){
       owlAktualnosci.trigger('owl.prev');
     })
-    $("#owl-aktualnosci.play").click(function(){
+    $("#aktualnosci .play").click(function(){
       owlAktualnosci.trigger('owl.play',1000); //owl.play event accept autoPlay speed as second parameter
     })
-    $("#owl-aktualnosci.stop").click(function(){
+    $("#aktualnosci .stop").click(function(){
       owlAktualnosci.trigger('owl.stop');
     })
 
