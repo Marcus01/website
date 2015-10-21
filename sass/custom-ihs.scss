@@ -9,7 +9,7 @@ $red_color: #f04e23;
 $dark_color: #20222e;
 $text-color: #444;
 
-%todo-gradiant {
+%left-blue-gradiant {
 background: #ffffff; /* Old browsers */
 background: -moz-linear-gradient(left,  #ffffff 0%, #ffffff 50%, #ffffff 50%, #000000 50%, #000000 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#ffffff), color-stop(50%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
@@ -23,7 +23,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 /*______________________________________________________________*/
 /****************** GLOBAL */
-
 
 /*______________________________________________________________*/
 /****************** SECTIONS */
@@ -170,6 +169,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/*______________________________________________________________*/
+/****************** ABOUT */
+
+#about {
+    background: $blue_color url(../images/home/legoworkers.jpg) no-repeat right top;
+    background-size: 50% 100%;
+    min-height: 400px;
+    .column-title:after {
+        width:100%;
+    }
+    .text-padding {
+        padding: 50px;
+    }
+}
+@media (max-width: 768px) {
+
+    #about {
+        background-image: none;
+    }
+}
 
 /*______________________________________________________________*/
 /****************** PROCES*/

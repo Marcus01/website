@@ -112,6 +112,20 @@
   -webkit-tap-highlight-color: transparent; }
 
 /*______________________________________________________________*/
+/****************** ABOUT */
+#about {
+  background: #00a9cb url(../images/home/legoworkers.jpg) no-repeat right top;
+  background-size: 50% 100%;
+  min-height: 400px; }
+  #about .column-title:after {
+    width: 100%; }
+  #about .text-padding {
+    padding: 50px; }
+
+@media (max-width: 768px) {
+  #about {
+    background-image: none; } }
+/*______________________________________________________________*/
 /****************** PROCES*/
 #proces {
   padding: 100px 0 50px;
