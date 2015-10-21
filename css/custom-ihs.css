@@ -113,18 +113,41 @@
 
 /*______________________________________________________________*/
 /****************** ABOUT */
-#about {
-  background: #00a9cb url(../images/home/legoworkers.jpg) no-repeat right top;
-  background-size: 50% 100%;
-  min-height: 400px; }
-  #about .column-title:after {
-    width: 100%; }
-  #about .text-padding {
-    padding: 50px; }
+#ihs {
+  padding: 100px 0 20px; }
 
+#about-ihs .column-title:after {
+  width: 100%; }
+#about-ihs .text-padding {
+  padding: 20px 20px 10px 20px; }
+#about-ihs .legoworkers {
+  background: url(../images/home/legoworkers.jpg) no-repeat right top;
+  background-size: cover;
+  height: 510px;
+  margin: 0;
+  padding: 0; }
+
+#about-gdansk .column-title:after {
+  width: 100%;
+  border-color: #fff; }
+#about-gdansk .text-padding {
+  padding: 20px 20px 10px 20px; }
+#about-gdansk .gdansk {
+  background: url(../images/home/gdansk.jpg) no-repeat right top;
+  background-size: cover;
+  height: 510px;
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 992px) {
+  #about-gdansk .gdansk {
+    display: none; } }
 @media (max-width: 768px) {
-  #about {
-    background-image: none; } }
+  #about-ihs .legoworkers {
+    display: none; }
+
+  #about-gdansk .gdansk {
+    display: none; } }
 /*______________________________________________________________*/
 /****************** PROCES*/
 #proces {

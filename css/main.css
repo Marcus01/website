@@ -101,6 +101,13 @@ hr {
 .btn.btn-primary:focus {
   background: #00697e;
 }
+.btn.btn-white {
+  background: #fff;
+}
+.btn.btn-white:hover,
+.btn.btn-white:focus {
+  background: #d9d9d9;
+}
 .btn.btn-lg {
   text-transform: uppercase;
   font-weight: 200;
